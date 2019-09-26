@@ -1,0 +1,108 @@
+/****************************************************************************
+ * Universidad Nacional Arturo Jauretche                                    *
+ * Instituto de Ingeniería y Agronomía -Ingeniería en Informática           *
+ * Práctica Profesional Supervisada - UNAJ: Dr. Ing. Morales, Martín        *
+ * Supervisor: Dr. Ing. Morales, Martín                                     *
+ * Author: Rosatto Daniel                                                   *
+ * Tarea adicional: Módulo about estándard para las pps                     *
+ * Archivo: standardPpsUnaj/drosatto/css/about.css                          *
+ ****************************************************************************/
+html body{
+    padding: 0%;
+    margin: 0%;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+/* Mobile first: */
+@media only screen and (max-width: 768px) {
+    html body header.col-12 div.col-9{
+
+    }
+}
+
+ /* Pantallas mayores o iguales a 768 pixeles*/
+@media only screen and (min-width: 767px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+
+input[type=button] {
+}
+
+/* Estilos del encabezado */
+html body header.col-12{
+    float: left;
+}
+html body header div.col-9{
+    float: left;
+}
+html body header img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+html body header h1{
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+/* Estilos del menu */
+html body nav.col-12.menu {
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+html body nav.col-12.menu ul.menu_ul li{
+    padding: 3%;
+    float:left;
+}
+html body nav.col-12.menu ul.menu_ul li:hover a{
+}
+body nav.col-3 {
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+}
+body nav.col-3 ul.menu_ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.radio{
+    /* display: none; */
+}
+
+body section.col-9 {
+    float: left;
+}
+
+/* Estilos del pie de página */
+html footer{
+    float: left;
+    padding-left: 4.13%;
+    padding-right: 4.13%;
+    width: 91.66%;
+}
