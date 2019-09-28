@@ -37,72 +37,125 @@ html body{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-
 }
 
-input[type=button] {
+header{
+  padding-top: 0.5%;
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 98%;
 }
 
-/* Estilos del encabezado */
-html body header.col-12{
-    float: left;
-}
-html body header div.col-9{
-    float: left;
-}
-html body header img{
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-
-html body header h1{
-    float: left;
-    text-align: center;
-    vertical-align: middle;
-    }
-
-/* Estilos del menu */
-html body nav.col-12.menu {
-    float:left;
-    text-align: center;
-    vertical-align: middle;
+.header-iia{
+  background-color: lightgray;
+  margin-top: 0;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: black;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
 }
 
-html body nav.col-12.menu ul.menu_ul li{
-    padding: 3%;
-    float:left;
-}
-html body nav.col-12.menu ul.menu_ul li:hover a{
-}
-body nav.col-3 {
-    float:left;
-    text-align: center;
-    vertical-align: middle;
-}
-body nav.col-3 ul.menu_ul {
-    list-style-type: none;
-    float: left;
-    margin: 0;
-    padding-top: 0%;
-    padding-right: 0%;
-    padding-bottom: 2%;
-    padding-left: 0%;
-    width: 100%;
+html body header div.header-iia.col-12 img.col-4{
+  margin: 1%;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
-.radio{
-    /* display: none; */
+nav{
+  padding-bottom: 0;
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 98%;
+}
+.nav-iia{
+  background-color: lightgray;
+  margin-bottom: 0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+}
+html body nav h1{
+  margin: 0;
+  padding: 1%;
+}
+html body div.content{
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 98%;
+}
+html body div.content div.content-iia{
+  background-color: lightgray;
+  margin-bottom: 1%;
+  text-align: center;
+  border-radius: 20px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
-body section.col-9 {
-    float: left;
+html body div.content div.content-iia.col-12 ul{
+  margin: 0;
+  list-style-type: none;
+  text-align: -moz-center;
+  padding-bottom: 1%;
+}
+html body div.content div.content-iia.col-12 ul li div p{
+  margin: 0;
+}
+html body div.content div.content-iia.col-12 ul li div{
+  padding-top: 1%;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 
-/* Estilos del pie de página */
-html footer{
-    float: left;
-    padding-left: 4.13%;
-    padding-right: 4.13%;
-    width: 91.66%;
+html body div.content div.content-iia.col-12 ul li div.item.col-11 div.item-content.col-10 div.photo.col-1{
+  padding: 0;
+}
+
+html body div.content div.content-iia.col-12 ul li div.item div.item-content{
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+html body div.content div.content-iia.col-12 ul li div.item.col-11 div.item-content.col-10 div.photo.col-1{
+  display: inline-block;
+  margin-bottom: 1%;
+  background-color: lightblue;
+  border-radius: 50%;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 8.33%;
+}
+
+html body div.content div.content-iia.col-12 ul li div.item.col-11 div.item-content.col-10 div.desc.col-8{
+  display: inline-block;
+  margin-bottom: 1%;
+}
+footer{
+  padding-top: 0;
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 98%;
+}
+.footer-iia{
+  /* background-color: #d3d6db; */
+  margin-bottom: 1%;
+  text-align: end;
+  border-radius: 20px;
 }
