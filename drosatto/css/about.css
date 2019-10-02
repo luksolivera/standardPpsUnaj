@@ -57,39 +57,11 @@ header{
   border-width: 1px;
 }
 
-html body header div.header-iia.col-12 img.col-4{
-  margin: 1%;
-  border: black;
-  border-style: solid;
-  border-width: 1px;
-}
-
 html body header div.header-iia.col-12 img.col-5{
   margin: 1%;
   border: black;
   border-style: solid;
   border-width: 1px;
-}
-
-nav{
-  padding-bottom: 0;
-  padding-right: 1%;
-  padding-left: 1%;
-  width: 98%;
-}
-.nav-iia{
-  background-color: lightgray;
-  margin-bottom: 0;
-  text-align: center;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border: black;
-  border-style: solid;
-  border-width: 1px;
-}
-html body nav h1{
-  margin: 0;
-  padding: 1%;
 }
 html body div.content{
   padding-top: 1%;
